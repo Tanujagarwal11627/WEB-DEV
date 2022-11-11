@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tourism</title>
+    <link rel="stylesheet" href="ff.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+        <u>
+            <h1>MONUMENTS  IN  UTTRAKHAND</h1>
+            </h1>
+        </u>
+        <br>
+    <div class="container">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              src="https://www.revv.co.in/blogs/wp-content/uploads/2020/07/Baijnath-Temple-700x445.jpg"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://www.weekendthrill.com/wp-content/uploads/2016/07/tungnath-compressed.jpg"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://english.cdn.zeenews.com/sites/default/files/2017/03/05/576332-050317-gs-ifm-12tt.jpg"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://th.bing.com/th/id/OIP.zeNgsdNvWghnKvl6jSaG5QHaE8?pid=ImgDet&rs=1"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+            src=https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/11/02/Pictures/first-temple-group-phase-jageshwar-initiative-selected_cb58b228-de8d-11e8-b6b1-54a396001ae0.jpg
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://th.bing.com/th/id/R.c2b48910cc8727c050f0b5311f892dd5?rik=p61xFnYOPfQ3Dg&riu=http%3a%2f%2fwww.indiamike.com%2ffiles%2fimages%2f25%2f08%2f01%2ftemple-of-tungnath.jpg&ehk=KEcbv10EzYIcHqj5%2fb92rGTG05sgxlmi8J7lYUZluPA%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://dadaboudir.com/wp-content/uploads/2021/02/Teen-Dham-Yatra-2021-Tour-Package.jpg"
+            />
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 3000,
+          disableONInteraction: false,
+        },
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+*{
+
+  color: black;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+h1{
+  text-align: center;
+  color: black;
+  /* font-family: "font-family: "Arial, Helvetica, sans-serif; */
+  font-size: 45px;
+}
+
+.dropdown{
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  background-color: transparent;
+
+}
+a
+{
+  color: black;
+  padding: 16px;
+  border: none;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+img
+
+{
+  height: 300px;
+  width: 382px;
+  transition: 0.1s;
+
+}
+hr{
+  height: 8px;
+}
+#st {
+  height: 350px;
+  width: 420px;
+  transition: 0.2s;
+  width: 382px;
+  height: 300px;
+}
+h2
+{
+  text-align:center;
+}
+.zoom:hover{
+  transform: scale(1.01);
+
+}
+*{
+    margin: 2;
+    padding: 4;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 83vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width:100vw;
+    height: fit-content;
+}
+.swiper-slide img{
+    height: 785px;
+    width: 100vw;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #fff;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: transparent;
+}
+.hh
+{
+  font-size: 35px;
+  text-align: center;
+  display:flex;
+  padding:0 17rem;
+}
+h2
+{
+  font-size: 35px;
+}
+.maincontainer{
+  position: relative;
+  width: 382px;
+  height: 300px;
+
+}
+.thecard{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+.thefront{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #ffc728;
+  color: #333;
+}
+.theback{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #fafafa;
+  color: #333;
+  transform: rotateY(180deg);
+}
+.ll
+{
+  font-size: 25px;
+}
+.aa{
+  font-size: 25px;
+}
+.d{
+  font-family: 'Poppins',sans-serif;
+  background-color: grey;
+  margin-top: -1.59%;
+    margin-left: -1%;
+    margin-right: -1%;
+}
